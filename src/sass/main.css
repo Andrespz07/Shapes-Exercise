@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+main #div-geometric {
+  display: flex;
+  justify-items: center;
+  gap: 60px;
+}
+main #div-geometric #triangle {
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #CCFF00;
+  display: flex;
+}
+main #div-geometric #triangle:hover, main #div-geometric #square:hover, main #div-geometric #circle:hover {
+  background-color: #ac332d;
+  transform: translateY(-6px);
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  -o-transform: translateY(-6px);
+}
+main #div-geometric #square {
+  width: 100px;
+  height: 100px;
+  background: #FF0000;
+  display: flex;
+}
+main #div-geometric #circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #5200FF;
+  display: flex;
+}
+main #reset {
+  display: block;
+  width: 64px;
+  height: 38px;
+  background: #cacaca;
+  border-radius: 7px;
+  transition: all 0.4s;
+}/*# sourceMappingURL=main.css.map */

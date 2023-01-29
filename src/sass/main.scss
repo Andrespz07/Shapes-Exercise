@@ -1,0 +1,58 @@
+@import "./variables.scss";
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+    #div-geometric{
+    display: flex;
+    justify-items: center;
+    gap: 60px;
+  #triangle {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid $triangle;
+    display: flex;
+    
+  }
+  #triangle:hover, #square:hover, #circle:hover{
+    background-color: $background-hover;
+    
+    transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+}
+
+  #square {
+    width: 100px;
+    height: 100px;
+    background: $square;
+    display: flex;
+  }
+  #circle {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: $circle;
+    display: flex;
+  }
+}
+    
+    #reset{
+        display: block;
+    width: 64px;
+    height: 38px;
+    background: #cacaca;
+    border-radius: 7px;
+    transition: all 0.4s;
+    }
+}
