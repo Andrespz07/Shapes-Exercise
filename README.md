@@ -7,7 +7,7 @@ Este ejercicio consiste en replicar la imagen que encontrarás haciendo click en
 4. Haciendo click en el botón "Reset" las figuras geométricas volverán a ser visibles.
 
 ## Instalación:
-- npm install -g sass!
+- npm install -g sass
 
 
 [Shapes-Exercise-Readme](https://user-images.githubusercontent.com/116883533/215609853-bdbdb5df-b27c-4a12-bd81-c190bfe85752.png)
