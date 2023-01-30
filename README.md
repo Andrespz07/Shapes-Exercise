@@ -10,6 +10,6 @@ Este ejercicio consiste en replicar la imagen que encontrarás haciendo click en
 - npm install -g sass
 
 
-[Shapes-Exercise-Readme](https://user-images.githubusercontent.com/116883533/215609853-bdbdb5df-b27c-4a12-bd81-c190bfe85752.png)
+![Shapes-Exercise-Readme](https://user-images.githubusercontent.com/116883533/215609853-bdbdb5df-b27c-4a12-bd81-c190bfe85752.png)
 
 Andrés Pérez.
