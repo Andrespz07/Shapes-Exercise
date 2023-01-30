@@ -40,10 +40,16 @@ main #div-geometric #circle {
   display: flex;
 }
 main #reset {
-  display: block;
   width: 64px;
   height: 38px;
-  background: #cacaca;
-  border-radius: 7px;
-  transition: all 0.4s;
+  background-color: #c4c4c4;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+main #reset:hover {
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

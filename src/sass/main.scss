@@ -48,11 +48,17 @@ main {
 }
     
     #reset{
-        display: block;
-    width: 64px;
-    height: 38px;
-    background: #cacaca;
-    border-radius: 7px;
-    transition: all 0.4s;
-    }
+   width: 64px;
+   height: 38px;   
+   background-color: $background-gray;
+   border: none;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+  #reset:hover{
+    background-color: $bg-white;
+  }
 }
